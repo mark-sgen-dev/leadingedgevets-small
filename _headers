@@ -1,0 +1,15 @@
+# response headers, written beside the site-reforge redirect map (Netlify / Cloudflare Pages).
+/llms.txt
+  X-Robots-Tag: noindex
+/_files/ugd/a265f7_021d7e4724ca48458fc8b6a6cd5329d6.pdf
+  X-Robots-Tag: noindex, nofollow
+/_files/ugd/a265f7_357ccabe10cb468299d1902ba19d7c2c.pdf
+  X-Robots-Tag: noindex, nofollow
+/_files/ugd/a265f7_38fa2a080411456c9709acfbc71c9e8d.pdf
+  X-Robots-Tag: noindex, nofollow
+/_files/ugd/a265f7_3dbc7a30c58d42d8bb830b587adeb007.pdf
+  X-Robots-Tag: noindex, nofollow
+/_files/ugd/a265f7_50bce70d3b2e4db5abd144884063ccf6.pdf
+  X-Robots-Tag: noindex, nofollow
+/_files/ugd/a265f7_f6a71da8c35c4164ba3b567c16870a9d.pdf
+  X-Robots-Tag: noindex, nofollow

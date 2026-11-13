@@ -1,0 +1,33 @@
+# site-reforge redirect map (Apache). Each source redirect matched exactly: mod_alias Redirect is a prefix match.
+RedirectMatch 301 "^/home/canine-influenza$" "/post/canine-influenza"
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # /contact serves contact.html, unless a real file or directory answers it.
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule ^(.+)$ $1.html [L]
+</IfModule>
+<IfModule mod_headers.c>
+  <If "%{REQUEST_URI} in { '/llms.txt' }">
+    Header set X-Robots-Tag "noindex"
+  </If>
+  <If "%{REQUEST_URI} in { '/_files/ugd/a265f7_021d7e4724ca48458fc8b6a6cd5329d6.pdf' }">
+    Header set X-Robots-Tag "noindex, nofollow"
+  </If>
+  <If "%{REQUEST_URI} in { '/_files/ugd/a265f7_357ccabe10cb468299d1902ba19d7c2c.pdf' }">
+    Header set X-Robots-Tag "noindex, nofollow"
+  </If>
+  <If "%{REQUEST_URI} in { '/_files/ugd/a265f7_38fa2a080411456c9709acfbc71c9e8d.pdf' }">
+    Header set X-Robots-Tag "noindex, nofollow"
+  </If>
+  <If "%{REQUEST_URI} in { '/_files/ugd/a265f7_3dbc7a30c58d42d8bb830b587adeb007.pdf' }">
+    Header set X-Robots-Tag "noindex, nofollow"
+  </If>
+  <If "%{REQUEST_URI} in { '/_files/ugd/a265f7_50bce70d3b2e4db5abd144884063ccf6.pdf' }">
+    Header set X-Robots-Tag "noindex, nofollow"
+  </If>
+  <If "%{REQUEST_URI} in { '/_files/ugd/a265f7_f6a71da8c35c4164ba3b567c16870a9d.pdf' }">
+    Header set X-Robots-Tag "noindex, nofollow"
+  </If>
+</IfModule>

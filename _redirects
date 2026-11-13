@@ -1,0 +1,2 @@
+# site-reforge redirect map (Netlify / Cloudflare Pages): the source's own redirects, with their own status.
+/home/canine-influenza /post/canine-influenza 301

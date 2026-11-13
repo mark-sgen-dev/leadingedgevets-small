@@ -1,0 +1,209 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json#site-reforge-redirect-map",
+  "redirects": [
+    {
+      "source": "/home/canine-influenza",
+      "destination": "/post/canine-influenza",
+      "statusCode": 301
+    }
+  ],
+  "headers": [
+    {
+      "source": "/llms.txt",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/_files/ugd/a265f7_021d7e4724ca48458fc8b6a6cd5329d6.pdf",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/_files/ugd/a265f7_357ccabe10cb468299d1902ba19d7c2c.pdf",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/_files/ugd/a265f7_38fa2a080411456c9709acfbc71c9e8d.pdf",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/_files/ugd/a265f7_3dbc7a30c58d42d8bb830b587adeb007.pdf",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/_files/ugd/a265f7_50bce70d3b2e4db5abd144884063ccf6.pdf",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/_files/ugd/a265f7_f6a71da8c35c4164ba3b567c16870a9d.pdf",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/about",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/book-online",
+      "destination": "/book-online.html"
+    },
+    {
+      "source": "/booking-calendar/indoor-arena-reservation",
+      "destination": "/booking-calendar/indoor-arena-reservation.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact.html"
+    },
+    {
+      "source": "/equine-boarding",
+      "destination": "/equine-boarding.html"
+    },
+    {
+      "source": "/equine-center",
+      "destination": "/equine-center.html"
+    },
+    {
+      "source": "/equine-events",
+      "destination": "/equine-events.html"
+    },
+    {
+      "source": "/event-details-registration/bovine-producers-tour-demo-1pm",
+      "destination": "/event-details-registration/bovine-producers-tour-demo-1pm.html"
+    },
+    {
+      "source": "/event-details-registration/cattle-producers-bbq-and-open-house",
+      "destination": "/event-details-registration/cattle-producers-bbq-and-open-house.html"
+    },
+    {
+      "source": "/faq",
+      "destination": "/faq.html"
+    },
+    {
+      "source": "/gallery",
+      "destination": "/gallery.html"
+    },
+    {
+      "source": "/links",
+      "destination": "/links.html"
+    },
+    {
+      "source": "/meet-the-staff",
+      "destination": "/meet-the-staff.html"
+    },
+    {
+      "source": "/new-clinic",
+      "destination": "/new-clinic.html"
+    },
+    {
+      "source": "/product-page/levs-baseball-cap",
+      "destination": "/product-page/levs-baseball-cap.html"
+    },
+    {
+      "source": "/product-page/levs-beanie",
+      "destination": "/product-page/levs-beanie.html"
+    },
+    {
+      "source": "/product-page/levs-canvas-tote-bag",
+      "destination": "/product-page/levs-canvas-tote-bag.html"
+    },
+    {
+      "source": "/product-page/pinnacle-intranasal-vaccine",
+      "destination": "/product-page/pinnacle-intranasal-vaccine.html"
+    },
+    {
+      "source": "/product-page/rabies",
+      "destination": "/product-page/rabies.html"
+    },
+    {
+      "source": "/product-page/strepvax-im",
+      "destination": "/product-page/strepvax-im.html"
+    },
+    {
+      "source": "/product-page/vetera-e-w-t-west-nile",
+      "destination": "/product-page/vetera-e-w-t-west-nile.html"
+    },
+    {
+      "source": "/product-page/vetera-gold",
+      "destination": "/product-page/vetera-gold.html"
+    },
+    {
+      "source": "/product-page/wellness-exam",
+      "destination": "/product-page/wellness-exam.html"
+    },
+    {
+      "source": "/product-page/zimectrin-gold",
+      "destination": "/product-page/zimectrin-gold.html"
+    },
+    {
+      "source": "/profile/8bd4de25-b11e-4292-a364-88483cb940a915809/events",
+      "destination": "/profile/8bd4de25-b11e-4292-a364-88483cb940a915809/events.html"
+    },
+    {
+      "source": "/profile/8bd4de25-b11e-4292-a364-88483cb940a915809/profile",
+      "destination": "/profile/8bd4de25-b11e-4292-a364-88483cb940a915809/profile.html"
+    },
+    {
+      "source": "/profile/__doc/events",
+      "destination": "/profile/__doc/events.html"
+    },
+    {
+      "source": "/profile/__doc/profile",
+      "destination": "/profile/__doc/profile.html"
+    },
+    {
+      "source": "/profile/abagail48/events",
+      "destination": "/profile/abagail48/events.html"
+    },
+    {
+      "source": "/profile/abagail48/profile",
+      "destination": "/profile/abagail48/profile.html"
+    },
+    {
+      "source": "/rebates",
+      "destination": "/rebates.html"
+    },
+    {
+      "source": "/service-page/indoor-arena-reservation",
+      "destination": "/service-page/indoor-arena-reservation.html"
+    },
+    {
+      "source": "/shop",
+      "destination": "/shop.html"
+    }
+  ]
+}
